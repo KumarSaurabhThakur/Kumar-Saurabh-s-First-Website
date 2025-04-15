@@ -438,3 +438,57 @@ input:hover {
     height: 100px;
     width: 80%;
 }
+
+.right section{
+    background-color: white;
+    margin-left: -80px;
+    margin-top: -20px;
+    height: 400px;
+    width: 70%;
+    padding: 20px 20px 20px 50px;
+    border: 0.5px solid gray;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 20px;
+}
+
+.copyright {
+    background-color: midnightblue;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    padding: 100px;
+}
+
+.copy1{
+    font-size: 40px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+
+.copyright img{
+    height: 50px;
+    width: 50px;
+}
+
+.copy2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-left: 40%;
+    padding-right: 40%;
+    column-gap: 10px;
+    padding-bottom: 20px;
+}
+
+.copyright div hr{
+    width: 50%;
+    border: 0.5px solid gray;
+}
+
+.copy3{
+    font-size: 15px;
+    font-weight: normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 50px;
+}
