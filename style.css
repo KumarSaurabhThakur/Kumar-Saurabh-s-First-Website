@@ -1,11 +1,9 @@
 header {
-    background-image: url("images/bg.jpg");
+    background: linear-gradient(90deg, #000000 0%, #F2295B08 100%), url("images/bg.jpg");
     background-size: cover;
     height: 750px;
-    background-color: rgba(0, 0, 0, 0.4);
-    background-blend-mode: multiply;
+    background-color: transparent;
 }
-
 body {
     margin: 0;
     padding: 0;
