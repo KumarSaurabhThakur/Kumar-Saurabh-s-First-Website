@@ -360,6 +360,244 @@
 
     }
     console.log("The sum of the digits is ",sum);*/
+
+
+        //FUNCTIONS PRACTICE
+        /*function display() {
+            console.log("Hello, my name is Kumar Saurabh.")
+        }
+       display();
+
+        function sum()
+        {
+            a=15;
+            b=23;
+            c=a+b;
+            console.log(c);
+        }
+        sum();
+
+
+        function add(a,b,c)
+        {
+            d=a+b+c;
+            console.log(d);
+            return d;
+
+        }
+        let k=add(1,2,4);
+        console.log(k);
+        console.log(k/2);*/
+
+
+        //FUNCTION TO ADD TWO NUMBERS
+        /*function sum(a,b)
+        {
+            c=a+b;
+            return c;
+        }
+        x=parseInt(prompt("Enter 1st Number: "));
+        y=parseInt(prompt("Enter 2nd Number: "));
+        k=sum(x,y);
+        console.log(k)
+        alert(k);*/
+
+        //FUNCTION TO MAKE AN ARRAY BY USER INPUT NUMBERS
+        /*let ar = [];
+        e1 = parseInt(prompt("Enter first element: "));
+        e2 = parseInt(prompt("Enter second element: "));
+        e3 = parseInt(prompt("Enter third element: "));
+        e4 = parseInt(prompt("Enter fourth element: "));
+        e5 = parseInt(prompt("Enter fifth element: "));
+        function add(a, b, c, d, e) {
+            ar.push(a, b, c, d, e);
+            return ar;
+        }
+        k = add(e1, e2, e3, e4, e5);
+
+        console.log(k);
+        alert(k);*/
+
+        //FUNCTION TO MAKE AN ARRAY BY EVEN ELEMENTS
+        /*let ar = [1,2,3,4,5];
+
+
+        function add(a) {
+            ar.push(a);
+            return ar;
+        }
+
+
+        function del(b)
+        {
+            ar.pop(b);
+            return ar;
+        }
+
+        //k = add(e1);
+        k=add(20)
+        console.log(k);
+        alert(k);*/
+
+        //FUNCTION TO ADD 5 ELEMENTS IN AN ARRAY USING LOOP
+        /*let ar = [];
+        t = 1;
+        function add(a) {
+            ar.push(a);
+            return ar;
+        }
+
+        while (t <= 5) {
+            e1 = parseInt(prompt("Enter element number " + t));
+            t++;
+            k = add(e1);
+        }
+        console.log(k);
+        alert(k);*/
+
+        //FUNCTION TO ADD ONLY EVEN ELEMENTS TO AN ARRAY
+        /*let ar = [];
+        t = 1;
+        function add(a) {
+            if(e1%2==0)
+            ar.push(a);
+        }
+
+        function getNumber()
+        {
+            let x=parseInt(prompt("Enter Elements: "));
+            return x;
+        }
+
+        while (t <= 5) {
+            e1 = getNumber();
+            t++;
+            add(e1);
+        }
+        console.log(ar);
+        alert(ar);*/
+
+
+        //FUNCTION TO COMPUTE A TO THE POWER B
+        /*let x = parseInt(prompt("Enter Base number: "));
+        let y = parseInt(prompt("Enter power "));
+
+        function exponent(x, y) {
+            c = x ** y;
+            return c;
+        }
+
+        k = exponent(x, y);
+        console.log(k);
+        alert(k);*/
+
+
+        //FUNCTION TO CALCULATE THE FACTORIAL OF A NUMBER
+        /*num = parseInt(prompt("Enter the Number: "));
+        a = num;
+        b = num;
+        factorial = num;
+        function fact(num) {
+            if (b < 0)
+                console.log("Factorial is not defined for negative numbers.");
+            else if (b == 0)
+                console.log("Factorial of 0 is 1.")
+            else
+
+                while (a > 1) {
+                    a -= 1;
+                    b = b * a;
+                }
+            return b;
+        }
+        k = fact(num)
+        console.log(k);
+        alert(k);*/
+
+
+        //FUNCTION TO FIND THE POSITION OF A NUMBER/ELEMENT IN AN ARRAY
+        /*arr=[1,2,3,4,5,6,7,8,9,10];
+        console.log(arr);
+        a=parseInt(prompt("Enter the Element: "));
+        function searchPos(a)
+        {
+            position=arr.indexOf(a);
+            return position;
+        }
+        k=searchPos(a);
+        console.log(k);
+        alert(k);*/
+        
+
+        //PRACTICE OF OBJECTS
+        /*let object = {
+            Name: "Kumar Saurabh",
+            Age: "16",
+            Class: "13th",
+            "Languages Known": ["HTML", "CSS", "JavaScript"],
+            obj: { Name: "Krish Cheete", Age: "18", Class: "12th failed" }
+        };    
+        
+        console.log(object);
+        console.log(object.Name);
+        console.log(object["Age"]);
+        console.log(object["Languages Known"]);
+        console.log(object.obj);
+        console.log(object.obj.Name,object.obj.Age,object.obj.Class);
+
+        for(i=0; i<object["Languages Known"].length; i++)
+        {console.log(object["Languages Known"][i]);}*/
+
+
+        //PRACTICE OF ARRAY OF OBJECTS
+        /*let aoo=[
+            {Name:"Kumar Saurabh",
+                Class:"13th",
+                Age:16
+            },
+            {Name:"Meet Mittan",
+                Class:"13th",
+                Age:18
+            },
+            {Name:"Krish",
+                Class:"13th",
+                Age:20
+            }
+
+        ];
+        console.log(aoo);
+        console.log(aoo[1]);*/
+
+
+        //USER INPUT ELEMENTS KA DICTIONARIES
+        
+       //title=prompt("Enter the name of the book: ");
+        //author=prompt("Enter the name of the book: ");
+        status=prompt("Enter the status of the book: ");
+        
+    arrayObjects=[
+        ob1={
+            title:"abc title",
+            author:"abc author",
+            status:true
+        },
+        ob2={
+            title:"xyz title",
+            author:"xyz author",
+            status:true
+        },
+        ob3={
+            title:"pqr title",
+            author:"pqr author",
+            status:false
+        }
+    ]
+    for(i=0; i<arrayObjects.length; i++)
+    {
+        if (arrayObjects[i].status==true)
+        console.log(arrayObjects[i].title);
+    }]
+        
     
     </script>
 
